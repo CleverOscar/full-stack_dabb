@@ -3,11 +3,10 @@ import {ethers} from 'ethers'
 
 import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json';
 
-const greeterAddress = '0x5fbdb2315678afecb367f032d93f642f64180aa3'
+const greeterAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3'
 
 console.log(Greeter.abi)
 
-import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json';
 
 console.log("Greeter ABI", Greeter)
 
